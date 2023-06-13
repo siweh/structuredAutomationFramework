@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="com.qa.demo.shop.listeners.Listeners"></listener>
+    </listeners>
+<!--    <parameter name="browser" value="chrome"/>-->
+<!--    <parameter name="testurl" value="https://shop.demoqa.com/#"/>-->
+    <test name="Test cases" >
+        <classes>
+<!--            <class name="com.qa.demo.shop.tests.HomepageTest"/>-->
+<!--            <class name="com.qa.demo.shop.tests.LoginTest"/>-->
+<!--            <class name="com.qa.demo.shop.tests.AddToCartTest"/>-->
+<!--            <class name="com.qa.demo.shop.tests.CartTest"/>-->
+            <class name="com.qa.demo.shop.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
